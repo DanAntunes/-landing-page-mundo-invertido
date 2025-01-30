@@ -34,14 +34,14 @@
         <button id="switch-theme-button" onclick="switchTheme()" aria-label="Alternar entre temas claro e escuro">Inverter Mundos</button>
       </div>
 
-      <div id="top-characters" class="world-characters"></div>
+      <div id="top-characters" class="world-characters" aria-hidden="true"></div>
     </header>
 
-    <main>
-      <div id="bottom-characters" class="world-characters"></div>
+    <main role="main">
+      <div id="bottom-characters" class="world-characters" aria-hidden="true"></div>
 
-      <section id="section-inverted-world" class="container">
-        <div class="section-texts">
+      <section id="section-inverted-world" class="container" aria-labelledby="inverted-world-heading">
+        <div class="section-texts" role="article">
           <h2>O Mundo Invertido</h2>
           <p>
             O Mundo Invertido parece uma cópia do nosso mundo, mas com criaturas
@@ -54,7 +54,7 @@
         <img
           class="invert-element"
           src="./public/images/content/inverted-world.png"
-          alt="Mundo Invertido"
+          alt="Ilustração do Mundo Invertido com paisagem surreal e criaturas sombrias"
         />
       </section>
 

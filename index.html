@@ -18,13 +18,13 @@
 </head>
   <body class="light-theme">
 
-    <audio id="music" loop autoplay aria-label="Trilha sonora ambiente">
+    <audio id="music" loop aria-label="Trilha sonora ambiente">
       <source src="./public/audio/music/normal-world.mpeg" type="audio/mpeg">
     </audio>
     <header>
       <div class="header-content">
         <img class="invert-element" src="./public/images/banner/logo.svg" alt="Logo do Mundo Invertido com texto em estilo retro" />
-        <p class="invert-element" role="doc-subtitle">
+        <p class="invert-element">
           Uma jornada para quem não tem medo do desconhecido. O caminho para o
           Mundo invertido é incerto, repleto de obstáculos e perigos. Porém, a
           recompensa é grande: salvar Hawkings e o mundo todo das garras de
@@ -60,7 +60,7 @@
         </figure>
       </section>
 
-      <section id="section-stranger-things-trailer" class="container">
+      <section id="section-stranger-things-trailer" class="container" aria-labelledby="trailer-heading">
         <div class="video-frame" aria-label="Trailer da 4ª temporada de Stranger Things">
           <iframe
             width="460"
@@ -70,6 +70,7 @@
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
+            aria-label="Trailer da 4ª temporada de Stranger Things"
           ></iframe>
         </div>
         <article class="section-texts">

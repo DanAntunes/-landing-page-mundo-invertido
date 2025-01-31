@@ -1,30 +1,69 @@
-# 🌌 Mundo Invertido - Stranger Things Inspired Landing Page
+# 🌌 Mundo Invertido - Stranger Things
 
-Bem-vindo ao **Mundo Invertido**, uma landing page interativa inspirada na aclamada série **Stranger Things**. Este projeto foi desenvolvido com o objetivo de praticar e aplicar conhecimentos em **HTML**, **CSS** e **JavaScript**, explorando temas visuais imersivos e interatividade.
+![Preview do Site](./public/images/banner/logo.svg)
 
-## 🖼️ Visão Geral
-A página traz uma experiência temática baseada no universo de Stranger Things, permitindo que os usuários:
-- **Alternem entre o mundo normal e o Mundo Invertido**, alterando a aparência do site e a música de fundo.
-- Conheçam mais sobre o Mundo Invertido e a quarta temporada da série.
-- Assistam ao trailer oficial de Stranger Things Vol. 4.
-- Explore uma galeria de imagens icônicas da série.
-- Inscrevam-se no **Clube de Dungeons & Dragons** para uma aventura única.
+Um website imersivo que transporta os fãs para o universo de Stranger Things, com recursos interativos e design temático.
 
-## 🚀 Funcionalidades
-- **Modo interativo de troca de tema**: Alterne entre o mundo normal e o Mundo Invertido com um botão.
-- **Áudio dinâmico**: A música muda automaticamente de acordo com o tema.
-- **Formulário interativo**: Inscrição no Clube de Dungeons & Dragons, com campos para nome, e-mail, nível de jogo e descrição do personagem.
-- **Galeria de imagens**: Um carrossel de fotos imersivo das cenas mais icônicas da série.
-- **Trailer oficial embutido**: Integração de vídeo do YouTube.
+## 🚀 Demonstração
 
-## 🛠️ Tecnologias Utilizadas
-- **HTML5**: Estrutura da página.
-- **CSS3**: Estilização, incluindo fontes personalizadas e efeitos visuais.
-- **JavaScript**: Funcionalidades dinâmicas como troca de temas e controle de áudio.
-- **Google Fonts**: Uso das fontes `Archivo` e `JetBrains Mono`.
-- **DIO._**: Base para aprendizado e desenvolvimento prático.
+[![Vídeo Demo](https://img.youtube.com/vi/pWHSdQkvwgk/0.jpg)](https://www.youtube.com/watch?v=pWHSdQkvwgk)
 
-## 🧾 Como Rodar o Projeto
-1. Clone este repositório:
-   ```bash
-   git clone https://github.com/DanAntunes/-landing-page-mundo-invertido
+## ✨ Funcionalidades Principais
+
+- **Tema Dinâmico** Alternância entre mundos claro/escuro
+- **Trilha Sonora Adaptativa** Música ambiente que muda com o tema
+- **Galeria Interativa** Cenas marcantes da 4ª temporada
+- **Formulário de Inscrição** Para o Clube de D&D de Hawkings
+- **Player de Vídeo Integrado** Trailer oficial da temporada
+- **Design Responsivo** Adaptado para diferentes dispositivos
+
+## 🛠 Tecnologias Utilizadas
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+
+- **Fontes:** Archivo e JetBrains Mono (Google Fonts)
+- **Semântica HTML:** Uso avançado de elementos semânticos
+- **Acessibilidade:** ARIA labels e roles implementados
+- **Transições CSS:** Efeitos visuais suaves
+
+## 🎯 Objetivos do Projeto
+
+- Praticar conceitos de desenvolvimento web front-end
+- Implementar recursos de acessibilidade
+- Criar uma experiência temática imersiva
+- Explorar integração de mídia (áudio/vídeo)
+
+## 📂 Estrutura de Arquivos
+
+```
+├── public/
+│ ├── audio/ # Trilhas sonoras
+│ ├── images/ # Assets visuais
+│ │ ├── banner/ # Logo e elementos header
+│ │ ├── content/ # Imagens do conteúdo
+│ │ └── footer/ # Logo do desenvolvedor
+├── src/
+│ └── assets/
+│ └── css/ # Folhas de estilo
+└── index.html # Arquivo principal
+```
+
+## 🎨 Componentes Chave
+
+### Tema Dinâmico
+
+```javascript
+function switchTheme() {
+  document.body.classList.toggle('dark-theme');
+  document.body.classList.toggle('light-theme');
+  // Altera trilha sonora conforme o tema
+}
+```
+
+## 📄 Licença
+
+Este projeto está sob licença MIT 
+
+Desenvolvido por Dan Antunes

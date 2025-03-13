@@ -1,6 +1,7 @@
 @import url(./styles/fonts.css);
 @import url(./styles/reset.css);
 @import url(./styles/variables_themes.css);
+@import url(./styles/world_characters.css);
 @import url(./layout/header.css);
 @import url(./styles/main.css);
 @import url(./sections/section.css);

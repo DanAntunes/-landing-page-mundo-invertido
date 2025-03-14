@@ -36,11 +36,12 @@
   <body class="light-theme">
 
     <audio id="music" loop aria-label="Trilha sonora ambiente">
-      <source src="./src/assets/" type="audio/mpeg">
+      <source src="./src/assets/audio/music/normal-world.mpeg" type="audio/mpeg">
     </audio>
+
     <header>
       <div class="header-content">
-        <img class="invert-element" src="./public/images/banner/logo.svg" alt="Logo do Mundo Invertido com texto em estilo retro" />
+        <img class="invert-element" src="./src/assets/images/banner/logo.svg" alt="Logo do Mundo Invertido com texto em estilo retro" />
         <p class="invert-element">
           Uma jornada para quem não tem medo do desconhecido. O caminho para o
           Mundo invertido é incerto, repleto de obstáculos e perigos. Porém, a
@@ -71,7 +72,7 @@
         <figure>
           <img
           class="invert-element"
-          src="./public/images/content/inverted-world.png"
+          src="./src/assets/images/content/inverted-world.png"
           alt="Ilustração do Mundo Invertido com paisagem surreal e criaturas sombrias"
         />
         </figure>
@@ -106,14 +107,14 @@
           <h2>A segunda série mais assistida da Netflix</h2>
           <div class="gallery-container" role="region" aria-label="Galeria de cenas da série">
             <figure class="gallery-image invert-element">
-              <img src="./public/images/content/serie-image-01.png" alt="Vecna" />
+              <img src="./src/assets/images/content/serie-image-01.png" alt="Vecna" />
             </figure>
             <figure class="gallery-image invert-element">
-              <img src="./public/images/content/serie-image-02.png" alt="Imagem promocional com a Onze, Mike
+              <img src="./src/assets/images/content/serie-image-02.png" alt="Imagem promocional com a Onze, Mike
               Will e Lucas" />
             </figure>
             <figure class="gallery-image invert-element">
-              <img src="./public/images/content/serie-image-03.png" alt="Imagem da serie com a Eleven e os irmãos
+              <img src="./src/assets/images/content/serie-image-03.png" alt="Imagem da serie com a Eleven e os irmãos
               Byers" />
             </figure>
           </div>
@@ -159,7 +160,7 @@
         Projeto construído para fins didáticos, com o objetivo de colocar em
         prática os conhecimentos de HTML, CSS e JavaScript aprendidos na DIO.
       </p>
-      <img src="./public/images/footer/Dan Antunes.png" alt="Logo do desenvolvedor Dan Antun">
+      <img src="./src/assets/images/footer/Dan Antunes.png" alt="Logo do desenvolvedor Dan Antun">
     </footer>
 
 
@@ -179,7 +180,7 @@
         const music = theme === 'light-theme' ? 'normal-world.mpeg' : 'inverted-world.mpeg'
 
         const audio = document.getElementById('music');
-        audio.src = `./public/audio/music/${music}`;
+        audio.src = `./src/assets/audio/music/${music}`;
         audio.play();
         audio.volume = 0.2;
       }

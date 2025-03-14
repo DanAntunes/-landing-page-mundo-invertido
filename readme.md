@@ -1,6 +1,6 @@
 # 🌌 Mundo Invertido - Stranger Things
 
-![Preview do Site](./public/images/banner/logo.svg)
+![Preview do Site](./src/assets/images/banner/logo.svg)
 
 Um website imersivo que transporta os fãs para o universo de Stranger Things, com recursos interativos e design temático.
 
